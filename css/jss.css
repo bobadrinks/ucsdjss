@@ -47,7 +47,7 @@ body {
 }
 
 .event-section {                                              
-    background: url('../bowling.jpg') no-repeat center center fixed;        
+    background: url('../pics/bowling.jpg') no-repeat center center fixed;        
     -webkit-background-size: cover;                           
     -moz-background-size: cover;                              
     -o-background-size: cover;                                
@@ -64,7 +64,7 @@ body {
 }
 
 .faq-section {                                              
-    background: url('../Geisel1.jpg') no-repeat center center fixed;        
+    background: url('../pics/Geisel1.jpg') no-repeat center center fixed;        
     -webkit-background-size: cover;                           
     -moz-background-size: cover;                              
     -o-background-size: cover;                                
@@ -194,7 +194,7 @@ body {
 }
 
 a {
-    color: #42dca3;
+    color: #ffffff;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -202,6 +202,19 @@ a {
 
 a:hover,
 a:focus {
+    text-decoration: none;
+    color: #0099FF;
+}
+
+.popover-title a {
+    color: #66C2FF;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.popover-title a:hover,
+.popover-title a:focus {
     text-decoration: none;
     color: #0099FF;
 }
